@@ -1,0 +1,16 @@
+//Achar média dos elementos de um vetor
+public class X{
+  public static double media(int vetor[]){
+    double soma =0;
+    for(int i=0;i<vetor.length;i++){
+        soma+=vetor[i];
+    }
+    double notaMedia=soma/vetor.length;
+    return notaMedia;
+  }
+  public static void main(String[] args){
+    int[] vetor={7,8,5,2,7};
+    double resultado = media(vetor);
+    media(System.out.println("A media do vetor é:"+resultado);
+}
+}
