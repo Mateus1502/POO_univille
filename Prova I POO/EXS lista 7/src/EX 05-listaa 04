@@ -1,0 +1,23 @@
+//Encontrar elemento no vetor
+public class X{
+  public static int buscar(int vetor[],int elemento){
+    for(int i=0;i<vetor.length;i++){
+      if(vetor[i]==elemento){
+        return i;
+      }
+      }
+        return -1;
+    } 
+  
+  public static void main(String[] args){
+    int[] vetor={1,2,6,8,40};
+    int elemento =30;
+    int resultado=buscar(vetor,elemento);
+    if (resultado==-1){
+      System.out.println("teste passou");
+    }else{
+      System.out.println("teste falhou");
+    }
+    
+  }
+}
